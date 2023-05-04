@@ -1,0 +1,75 @@
+.game-container {
+  height: 100%;
+  width: 100%;
+}
+
+.game-container .game-title {
+  height: 15%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.game-container .game-screen-container {
+  height: 80%;
+  width: 100%;
+  display: flex;
+}
+
+.game-container .game-screen-container .score-container {
+  height: 85%;
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 38px;
+}
+
+.game-container .game-screen-container .game-screens {
+  height: 85%;
+  width: 50%;
+}
+
+.game-container .game-screen-container .game-screens .game-screen {
+  height: 38%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.game-container .game-screen-container .game-screens .game-timer {
+  height: 38%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 38px;
+}
+
+.game-container .game-screen-container .game-screens .game-screen .game-icon {
+  height: 50%;
+  width: 33%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.game-container .game-screen-container .game-screens .game-screen .game-user-icon {
+  height: 50%;
+  width: 33%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.game-container .game-screen-container .game-screens .game-screen .game-user-icon:hover {
+  color: #2B5A38;
+  cursor: pointer;
+  transition: 0.2s;
+}

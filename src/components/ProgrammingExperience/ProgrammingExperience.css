@@ -1,0 +1,89 @@
+.experience-container {
+  height: 100%;
+  width: 100%;
+}
+
+.experience-container .experience-header {
+  height: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.experience-container .experience-sub-header {
+  height: 2%;
+  margin-top: 1%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  font-style: italic;
+}
+
+.experience-container .experience-info-container {
+  width: 90%;
+  height: 89%;
+  margin-top: 2%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.experience-container .experience-info-container .experience-info {
+  width: 42%;
+  height: 20%;
+  margin-left: 8%;
+}
+
+.experience-container .experience-info-container .experience-info .programming-language-text {
+  width: 100%;
+  height: 25%;
+  display: flex;
+  justify-content: center;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.experience-container .experience-info-container .experience-info .valuation-bar {
+  width: 80%;
+  margin-top: 2%;
+  margin-left: 10%;
+  height: 35%;
+  background-color: #282828;
+  border-radius: 10px;
+  display: flex;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.experience-container .experience-info-container .experience-info .valuation-bar .valuation-fill {
+  background-color: #2B5A38;
+  border-radius: 10px;
+}
+
+.experience-container .experience-info-container .experience-info .measurement-bar {
+  width: 80%;
+  margin-left: 10%;
+  height: 10%;
+  display: flex;
+}
+
+.experience-container .experience-info-container .experience-info .measurement-bar-values {
+  width: 100%;
+  margin-left: 3%;
+  height: 10%;
+  display: flex;
+}
+
+.experience-container .experience-info-container .experience-info .measurement-bar .measurement {
+  height: 100%;
+  border-right: solid 2px grey;
+}
+
+.experience-container .experience-info-container .experience-info .measurement-bar-values .measurement-value {
+  display: flex;
+  align-items: center;
+  font-style: italic;
+  font-size: 12px;
+}

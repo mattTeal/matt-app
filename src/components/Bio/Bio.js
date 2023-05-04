@@ -11,7 +11,7 @@ function Bio() {
         Hey, I'm Matt Teal. I have been a professional software engineer since January 2022.
         I've worked with major organizations in implementing robust solutions to significant challenges.
         <br></br><br></br>
-        blah blah blah
+        blah blah blah blah blah blahblah blah blahblah blah blahblah blah blahblah blah blahblah blah blah
       </div>
     </div>
   )

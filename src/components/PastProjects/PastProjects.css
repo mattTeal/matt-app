@@ -1,0 +1,95 @@
+.project-experience-container {
+  height: 100%;
+  width: 100%;
+}
+
+.project-experience-container .project-experience-header {
+  height: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.project-experience-container .project-experience-sub-header {
+  height: 10%;
+  margin-top: 0.5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  font-style: italic;
+}
+
+.project-experience-container .project-cards-container {
+  width: 60%;
+  margin-left: 20%;
+  margin-top: 1%;
+  height: 75%;
+  display: flex;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+
+.project-experience-container .project-cards-container::-webkit-scrollbar {
+  height: 7px;
+}
+
+.project-experience-container .project-cards-container::-webkit-scrollbar-track {
+  color: #3d3f41;
+}
+
+.project-experience-container .project-cards-container::-webkit-scrollbar-thumb {
+  background-color: #3d3f41;
+  border-radius: 20px;
+  border: 3px solid #3d3f41;
+}
+
+.project-experience-container .project-cards-container .project-card-container {
+  width: 50%;
+  display: inline-block;
+  height: 85%;
+  margin-left: 2%;
+  border: solid 4px #2B5A38;
+  border-radius: 10px;
+}
+
+.project-experience-container .project-cards-container .project-card-container:hover {
+  box-shadow: -8px 8px 5px rgb(23, 85, 23);
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.project-experience-container .project-cards-container .project-card-container .project-card-title {
+  height: 18%;
+  font-size: 20px;
+  font-weight: 700;
+  padding-left: 2%;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.project-experience-container .project-cards-container .project-card-container .project-card-position {
+  height: 15%;
+  font-size: 16px;
+  padding-left: 2%;
+  font-style: italic;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.project-experience-container .project-cards-container .project-card-container .project-card-description {
+  height: 70%;
+  font-size: 16px;
+  padding-left: 2%;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: -webkit-box !important;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+  white-space: normal;
+}
