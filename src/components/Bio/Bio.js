@@ -5,7 +5,7 @@ function Bio() {
   return (
     <div className='bio-container'>
       <div className='bio-pic-container'>
-        <img src='/a_handsome_young_man.png' alt='a handsome man fr' className='handsome-pic'/>
+        <img src='./a_handsome_young_man.png' alt='a handsome man fr' className='handsome-pic'/>
       </div>
       <div className='bio-info'>
         Hey, I'm Matt Teal. I have been a professional software engineer since January 2022.
