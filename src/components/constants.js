@@ -25,7 +25,7 @@ export const WORK_EXPERIENCE = {
   },
   "LZ Technologies at NASA": {
     "position": "Full Stack Software Engineer | Internship",
-    "description": "A bunch of description"
+    "description": "A bunch of descriptionnn"
   },
 }
 
